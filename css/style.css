@@ -1,0 +1,78 @@
+body {
+  width: 900px;
+  background: rgba(20, 90, 100, 0.25);
+  margin: 0 auto;
+  font-family: arial, times, sans-serif;
+  color: #224; }
+
+form {
+  width: 450px;
+  border-bottom: 2px ridge #aaa;
+  padding-bottom: 20px; }
+
+ul {
+  list-style: none;
+  margin-top: 10px; }
+
+li {
+  display: block;
+  padding: 7px; }
+
+strong {
+  padding-left: 25px; }
+  strong:before {
+    content: 'Your Answer: '; }
+
+#correct {
+  color: #00bb00; }
+
+#wrong {
+  color: #bb0000; }
+
+#answer {
+  width: 200px;
+  font-size: 1.5em;
+  background: rgba(200, 220, 210, 0.5);
+  margin: 20px auto; }
+
+a {
+  text-decoration: none;
+  color: #777;
+  font-style: italic; }
+  a:hover {
+    text-decoration: underline; }
+
+select {
+  min-width: 270px;
+  max-width: 400px; }
+
+option
+input[type=submit] {
+  float: right; }
+
+h4 {
+  padding-top: 20px; }
+
+h2 {
+  border-bottom: 2px ridge #aaa;
+  width: 450px; }
+
+@media only screen and (max-width: 500px) {
+  body {
+    max-width: 400px; }
+
+  h2 {
+    width: 380px; }
+
+  form {
+    width: 380px;
+    margin: 0; }
+
+  input[type=submit] {
+    width: 270px;
+    height: 40px; }
+
+  select {
+    width: 270px; } }
+
+/*# sourceMappingURL=style.css.map */
